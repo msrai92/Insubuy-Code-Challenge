@@ -1,0 +1,297 @@
+.App {
+  background-color: lightslategray;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  height: 10vh;
+  width: 100%;
+  background-color: lightslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family:  sans-serif;
+}
+
+.quoteForm{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 90vw;
+  outline-color:black;
+  position: absolute;
+  top: 20%;
+  overflow: hidden;
+  
+}
+
+.quoteTitle{
+  background-color: lightblue;
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.quoteTitle p{
+  padding-left: 5%;
+  color: navy;
+  
+}
+
+.form{
+  width: 100%;
+  height: 100%;
+}
+
+.form select{
+  float: right;
+}
+
+.form1{
+  
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.form2{
+ 
+  width: 100%;
+  height: 100%;
+}
+
+.form3{
+  width: 100%;
+  height: 100%;
+}
+
+.policy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 7vh;
+}
+
+.travel{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.date{
+  display:flex;
+  flex-direction: row;
+}
+
+.mail{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.age{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.citizen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 7vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Button{
+  display: flex;
+  flex-direction: column;
+  float: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.searchBtn{
+  display: flex;
+  flex-direction: column;
+  height: 6vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBtn button{
+  height: 3vh;
+  width: 80%;
+  color: white;
+  background-color: orange;
+  font-size: 1em;
+}
+
+.resetBtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetBtn button{
+  padding: 0;
+  border: none;
+  background: none; 
+  height: 2.5vh;
+  color: blue;
+  font-size: .9em;
+  border-bottom: .5px solid blue
+  
+}
+
+.errors{
+  display: flex;
+  flex-direction: row;
+  height: 5%;
+  width: 100%;
+  font-size: .8em;
+  color: red;
+  align-items: center;
+  justify-content: center;
+}
+.errors p{
+  padding-right: 1%;
+ 
+}
+
+.resultPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.funcButtons {
+  display: flex;
+  flex-direction: row;
+  height: 4%;
+  width: 90%;
+  padding-bottom: 5%;
+}
+
+.funcButtons button{
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.quoteTable {
+  width: 90%;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+table, td, th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+
+.policyForm{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.filterForms{
+  display:flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px){
+  .App{
+    height: auto;
+  }
+
+  .quoteForm{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    top: 10%;
+  }
+  .form1{
+    display:flex;
+    flex-direction: column;
+  }
+  .searchBtn button{
+    height: 3vh;
+    width: 40%;
+    color: white;
+    background-color: orange;
+    font-size: 1em;
+  }
+
+  .quoteTable{
+    font-size: .8em;
+    width: auto;
+    height: auto;
+  }
+
+  td{
+    height: auto;
+    width: auto;
+  }
+  
+  .funcButtons {
+    flex-direction: column;
+    padding-bottom: 30%;
+  }
+
+  .filterForms{
+ 
+  }
+ 
+}
